@@ -1,0 +1,66 @@
+.section-title h5 b {
+    font-size: 1rem;
+    color: #fff;
+    font-family: "Quicksand";
+    font-weight: 450;
+    text-shadow: 0.7px 0.7px 2px var(--red);
+}
+
+.section-title h1, .section-title h1 b {
+    font-weight: 500;
+    text-shadow: 1px 1px 5px var(--red);
+} 
+
+.bijli-icon a b{
+    border-radius: 6rem;
+    padding: 0.4rem 0.9rem;
+    padding-bottom: 0.6rem;
+    background-color: var(--red);
+    color: #fff;
+    font-family: "Quicksand";
+    font-weight: 500;
+}
+
+.bijli-icon a b:hover {
+    opacity: 0.8;
+}
+
+#flowchart {
+    height: 1200vh;
+}
+
+table tr td {
+    font-weight: 400;
+    font-size: 0.9rem !important;
+}
+
+
+.reveal-modal {
+        background:#e1e1e1; 
+        visibility:hidden;
+        display:none;
+        top:100px; 
+        left:50%; 
+        width:820px; 
+        position:absolute; 
+        z-index:41;
+        padding:30px; 
+        -webkit-box-shadow:0 0 10px rgba(0,0,0,0.4);
+        -moz-box-shadow:0 0 10px rgba(0,0,0,0.4); 
+        box-shadow:0 0 10px rgba(0,0,0,0.4)
+}
+.center {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+  }
+
+  select {
+      display:inline;
+      width:auto;
+  }
+
+
+  .form {
+      margin: auto 25%;
+  }
