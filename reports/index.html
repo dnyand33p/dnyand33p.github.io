@@ -195,8 +195,9 @@
     function returnReport() {
         var reportYears = document.getElementById("getReport");
         var selectedYear = reportYears.options[reportYears.selectedIndex].value;
-        var filePathPrefix = "https://github.com/dnyand33p/dnyand33p.github.io/tree/master/assets/files/";
+        var filePathPrefix = "https://dnyand33p.github.io/assets/files/";
         filePath = filePathPrefix + selectedYear; 
+        alert(filePath);
 
 
         document.write(`<iframe
