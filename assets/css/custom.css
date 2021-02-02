@@ -64,3 +64,9 @@ table tr td {
   .form {
       margin: auto 25%;
   }
+
+
+  .white {
+      color : #fff !important;
+      text-shadow: 1.3px 1.3px 0 black;
+  }
