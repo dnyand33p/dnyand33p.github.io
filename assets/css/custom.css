@@ -70,3 +70,43 @@ table tr td {
       color : #fff !important;
       text-shadow: 1.3px 1.3px 0 black;
   }
+
+ .less-width {
+     margin-left: 10px;
+     margin-right: 10px;
+ }
+
+ .some-padding {
+     padding-right: 12px;
+ }
+
+ .page-heading {
+     margin: 30px auto;
+     width: 50%;
+     font-family: "Quicksand";
+ }
+
+ .card-text li {
+     color : #fff;
+ }
+
+ .card-link {
+     background-color: var(--green);
+     color: #fff;
+     padding: 0.8rem;
+     font-family: "Quicksand";
+     border-radius: 0.5rem;
+ }
+
+ .card-link:hover {
+     color:#fff;
+     opacity: 0.4;
+ }
+
+ .card-body {
+     box-shadow: 5px 5px var(--red);
+ }
+
+ .card {
+     margin: 2rem;
+ }
