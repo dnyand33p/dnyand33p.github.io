@@ -110,3 +110,8 @@ table tr td {
  .card {
      margin: 2rem;
  }
+
+
+ .breadcroumb-title > h6  > a{
+     color:  #fff; 
+ }

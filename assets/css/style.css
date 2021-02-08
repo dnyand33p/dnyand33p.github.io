@@ -563,6 +563,10 @@ textarea:focus::-webkit-input-placeholder {
 	background-image: url(../img/sukhbirsingh.jpg);
 }
 
+.shakira {
+	background-image: url(../img/team/Shakira_Inamdar-final-.png);
+}
+
 .volunteer-bg-6 {
 	background-image: url(../img/volunteer-6.jpg);
 }
@@ -573,45 +577,66 @@ textarea:focus::-webkit-input-placeholder {
 
 .breadcroumb-area.bread-bg-2 {
 	background-image: url(../img/about-us.jpg);
+	background-color: #fff;
 	background-size: 80% 100%;
-	background-repeat: no-repeat;}
+	background-repeat: no-repeat;
+	border-radius: 20rem 8rem;
+}
 
 .breadcroumb-area.bread-bg-3 {
 	background-image: url(../img/bod-bg.jpg);
+	background-color: #fff;
 	background-size: 80% 100%;
-	background-repeat: no-repeat;}
+	background-repeat: no-repeat;
+	border-radius: 20rem 8rem;
+
+}
 
 .breadcroumb-area.bread-bg-4 {
 	background-image: url(../img/managementTeam-bg.jpg);
+	border-radius: 20rem 8rem;
+	background-color: #fff;
 	background-size: 80% 100%;
 	background-repeat: no-repeat;}
 
 .breadcroumb-area.fieldSpeaksBG {
 	background-image: url(../img/fieldSpeaksBG.jpg);
+	background-color: #fff;
+	border-radius: 20rem 8rem;
 	background-size: 80% 100%;
 	background-repeat: no-repeat;}
 
 .breadcroumb-area.microFinanceBG {
 	background-image: url(../img/microFinanceBG.jpg);
+	background-color: #fff;
+	border-radius: 20rem 8rem;
 	background-size: 80% 100%;
 	background-repeat: no-repeat;}
 
 .breadcroumb-area.microEnterpriseBG {
 	background-image: url(../img/microEnterpriseBG.jpg);
-	background-size: 80% 100%;
+	background-size: 80% 103%;
+	border-radius: 20rem 8rem;
 	background-repeat: no-repeat;
+	background-color: #fff;
+
 }
 
 .breadcroumb-area.microInsuranceBG {
 	background-image: url(../img/microInsuranceBG.jpg);
 	background-size: 80% 100%;
-	background-repeat: no-repeat;}
+	border-radius: 20rem 8rem;
+	background-repeat: no-repeat;
+	background-color: #fff;
+}
 
 
 .breadcroumb-area.careersBG {
 	background-image: url(../img/careersBG.jpg);
 	background-size: 80% 100%;
+	border-radius: 20rem 8rem;
 	background-repeat: no-repeat;
+	background-color: #fff;
 }
 
 /* Pre-loader CSS 
@@ -2805,7 +2830,7 @@ ul.port-menu.recent {
 	display: -ms-flexbox;
 	display: flex;
 	-webkit-box-pack: center;
-	-ms-flex-pack: center;
+	-ms-flex-pack: center; 
 	justify-content: center;
 	-webkit-box-align: center;
 	-ms-flex-align: center;
