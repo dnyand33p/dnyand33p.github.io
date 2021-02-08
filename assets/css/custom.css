@@ -115,3 +115,8 @@ table tr td {
  .breadcroumb-title > h6  > a{
      color:  #fff; 
  }
+
+ .some-margin {
+     margin-right: 22px;
+     margin-left: 5px;
+ }
