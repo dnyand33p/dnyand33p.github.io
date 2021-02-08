@@ -1458,7 +1458,7 @@ textarea:focus::-webkit-input-placeholder {
 
 .single-service-item i::before {
 	font-size: 50px;
-	color: #11BA6D;
+	color: var(--red);
 }
 
 .single-service-item.active {
@@ -1500,7 +1500,7 @@ textarea:focus::-webkit-input-placeholder {
 	left: -35px;
 	width: 70px;
 	height: 70px;
-	background: var(--red);
+	background: var(--green);
 	border-radius: 50%;
 	z-index: -1;
 	opacity: .9;
@@ -1514,6 +1514,7 @@ textarea:focus::-webkit-input-placeholder {
 .single-service-item:hover i:before {
 	color: #fff;
 }
+
 
 .single-service-item:hover p {
 	color: #fff;
@@ -1743,7 +1744,7 @@ a.line-btn:hover {
 	height: 3px;
 	top: -8px;
 	left: 50%;
-	background: #EFC94C;
+	background: var(--red);
 	margin-left: -20px;
 }
 
