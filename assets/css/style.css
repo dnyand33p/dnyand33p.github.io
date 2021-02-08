@@ -573,44 +573,45 @@ textarea:focus::-webkit-input-placeholder {
 
 .breadcroumb-area.bread-bg-2 {
 	background-image: url(../img/about-us.jpg);
-	background-size: 100% 100%;
-}
+	background-size: 80% 100%;
+	background-repeat: no-repeat;}
 
 .breadcroumb-area.bread-bg-3 {
 	background-image: url(../img/bod-bg.jpg);
-	background-size: 100% 100%;
-}
+	background-size: 80% 100%;
+	background-repeat: no-repeat;}
 
 .breadcroumb-area.bread-bg-4 {
 	background-image: url(../img/managementTeam-bg.jpg);
-	background-size: 100% 100%;
-}
+	background-size: 80% 100%;
+	background-repeat: no-repeat;}
 
 .breadcroumb-area.fieldSpeaksBG {
 	background-image: url(../img/fieldSpeaksBG.jpg);
-	background-size: 100% 100%;
-}
+	background-size: 80% 100%;
+	background-repeat: no-repeat;}
 
 .breadcroumb-area.microFinanceBG {
 	background-image: url(../img/microFinanceBG.jpg);
-	background-size: 100% 100%;
-}
+	background-size: 80% 100%;
+	background-repeat: no-repeat;}
 
 .breadcroumb-area.microEnterpriseBG {
 	background-image: url(../img/microEnterpriseBG.jpg);
-	background-size: 100% 100%;
-
+	background-size: 80% 100%;
+	background-repeat: no-repeat;
 }
 
 .breadcroumb-area.microInsuranceBG {
 	background-image: url(../img/microInsuranceBG.jpg);
-	background-size: 100% 100%;
-}
+	background-size: 80% 100%;
+	background-repeat: no-repeat;}
 
 
 .breadcroumb-area.careersBG {
 	background-image: url(../img/careersBG.jpg);
-	background-size: 100% 100%;
+	background-size: 80% 100%;
+	background-repeat: no-repeat;
 }
 
 /* Pre-loader CSS 
