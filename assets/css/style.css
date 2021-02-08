@@ -585,7 +585,7 @@ textarea:focus::-webkit-input-placeholder {
 	background-color: #fff;
 	background-size: 80% 100%;
 	background-repeat: no-repeat;
-	border-radius: 8rem 8rem;
+	border-radius: 11rem 8rem;
 }
 
 .breadcroumb-area.bread-bg-3 {
@@ -593,7 +593,7 @@ textarea:focus::-webkit-input-placeholder {
 	background-color: #fff;
 	background-size: 80% 100%;
 	background-repeat: no-repeat;
-	border-radius: 8rem 8rem;
+	border-radius: 11rem 8rem;
 
 }
 
@@ -607,21 +607,21 @@ textarea:focus::-webkit-input-placeholder {
 .breadcroumb-area.fieldSpeaksBG {
 	background-image: url(../img/fieldSpeaksBG.jpg);
 	background-color: #fff;
-	border-radius: 8rem 8rem;
+	border-radius: 11rem 8rem;
 	background-size: 80% 100%;
 	background-repeat: no-repeat;}
 
 .breadcroumb-area.microFinanceBG {
 	background-image: url(../img/microFinanceBG.jpg);
 	background-color: #fff;
-	border-radius: 8rem 8rem;
+	border-radius: 11rem 8rem;
 	background-size: 80% 100%;
 	background-repeat: no-repeat;}
 
 .breadcroumb-area.microEnterpriseBG {
 	background-image: url(../img/microEnterpriseBG.jpg);
 	background-size: 80% 103%;
-	border-radius: 8rem 8rem;
+	border-radius: 11rem 8rem;
 	background-repeat: no-repeat;
 	background-color: #fff;
 
@@ -630,7 +630,7 @@ textarea:focus::-webkit-input-placeholder {
 .breadcroumb-area.microInsuranceBG {
 	background-image: url(../img/microInsuranceBG.jpg);
 	background-size: 80% 100%;
-	border-radius: 8rem 8rem;
+	border-radius: 11rem 8rem;
 	background-repeat: no-repeat;
 	background-color: #fff;
 }
@@ -639,7 +639,7 @@ textarea:focus::-webkit-input-placeholder {
 .breadcroumb-area.careersBG {
 	background-image: url(../img/careersBG.jpg);
 	background-size: 80% 100%;
-	border-radius: 8rem 8rem;
+	border-radius: 11rem 8rem;
 	background-repeat: no-repeat;
 	background-color: #fff;
 }
