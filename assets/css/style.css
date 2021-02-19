@@ -38,8 +38,6 @@
 /* Google Font Import 
 ======================= */
 
-@import url(_fonts.googleapis.com%5Ccss?family=Poppins:300,400,500,600,700|Source+Sans+Pro:300,400,600,700);
-@import url(_fonts.googleapis.com%5Ccss?family=Quicksand:400,500,600,700&display=swap);
 
 
 /* Common CSS 
@@ -93,11 +91,12 @@ a {
 
 p {
 	font-family: 'Quicksand', sans-serif;
-	font-size: 18px;
+	font-size: 20px;
 	font-weight: 500;
 	line-height: 32px;
+	padding: 1rem;
 	position: relative;
-	color: #686868;
+	color: black;
 }
 
 
@@ -339,11 +338,11 @@ li {
 	font-weight: 500;
 	letter-spacing: 1px;
 	text-transform: capitalize;
-	padding: 14px 28px;
+	padding: 11px 24px;
 	text-align: center;
 	vertical-align: middle;
 	cursor: pointer;
-	border-radius: 5px;
+	border-radius: 18px;
 	-webkit-transition: .3s;
 	transition: .3s;
 }
@@ -370,8 +369,15 @@ li {
 	}
 }
 
+.main-btn {
+	font-family: "Quicksand";
+	font-weight: 700;
+	font-size: 21px;
+	color: white;
+}
+
 .main-btn:hover {
-	background-color: #25283a;
+	background-color:var(--green);
 	color: #fff;
 }
 
@@ -583,45 +589,39 @@ textarea:focus::-webkit-input-placeholder {
 .breadcroumb-area.bread-bg-2 {
 	background-image: url(../img/about-us.jpg);
 	background-color: #fff;
-	background-size: 80% 100%;
+	background-size: 85% 100%;
 	background-repeat: no-repeat;
-	border-radius: 11rem 8rem;
 }
 
 .breadcroumb-area.bread-bg-3 {
 	background-image: url(../img/bod-bg.jpg);
 	background-color: #fff;
-	background-size: 80% 100%;
+	background-size: 85% 100%;
 	background-repeat: no-repeat;
-	border-radius: 11rem 8rem;
 
 }
 
 .breadcroumb-area.bread-bg-4 {
 	background-image: url(../img/managementTeam-bg.jpg);
-	border-radius: 11rem 8rem;
 	background-color: #fff;
-	background-size: 80% 100%;
+	background-size: 85% 100%;
 	background-repeat: no-repeat;}
 
 .breadcroumb-area.fieldSpeaksBG {
 	background-image: url(../img/fieldSpeaksBG.jpg);
 	background-color: #fff;
-	border-radius: 11rem 8rem;
-	background-size: 80% 100%;
+	background-size: 85% 100%;
 	background-repeat: no-repeat;}
 
 .breadcroumb-area.microFinanceBG {
 	background-image: url(../img/microFinanceBG.jpg);
 	background-color: #fff;
-	border-radius: 11rem 8rem;
-	background-size: 80% 100%;
+	background-size: 85% 100%;
 	background-repeat: no-repeat;}
 
 .breadcroumb-area.microEnterpriseBG {
 	background-image: url(../img/microEnterpriseBG.jpg);
 	background-size: 80% 103%;
-	border-radius: 11rem 8rem;
 	background-repeat: no-repeat;
 	background-color: #fff;
 
@@ -629,8 +629,7 @@ textarea:focus::-webkit-input-placeholder {
 
 .breadcroumb-area.microInsuranceBG {
 	background-image: url(../img/microInsuranceBG.jpg);
-	background-size: 80% 100%;
-	border-radius: 11rem 8rem;
+	background-size: 85% 100%;
 	background-repeat: no-repeat;
 	background-color: #fff;
 }
@@ -639,16 +638,14 @@ textarea:focus::-webkit-input-placeholder {
 
 .breadcroumb-area.careersBG {
 	background-image: url(../img/careersBG.jpg);
-	background-size: 80% 100%;
-	border-radius: 11rem 8rem;
+	background-size: 85% 100%;
 	background-repeat: no-repeat;
 	background-color: #fff;
 }
 
 .breadcroumb-area.lifeAtSelfBG {
 	background-image: url(../img/lifeAtSelfBG.jpg);
-	background-size: 80% 100%;
-	border-radius: 11rem 8rem;
+	background-size: 85% 100%;
 	background-repeat: no-repeat;
 	background-color: #fff;
 }
@@ -720,7 +717,7 @@ textarea:focus::-webkit-input-placeholder {
 
 .header-top-area {
 	background:var(--green);
-	padding: 7px;
+	padding: 2px;
 }
 
 .header-top-area p {
@@ -791,13 +788,14 @@ textarea:focus::-webkit-input-placeholder {
 
 .social-icon {
 	margin-top: 3px;
-
+	margin-left: auto;
 }
 
-.social-icon i {
+.social-icon i, .social-icon a {
 	color: white;
-	font-size: 25px;
-	padding: 5px;
+	font-size: 22px;
+	padding-left: 12px;
+	padding-right: 6px;
 }
 
 .social-icon i:hover {
@@ -835,8 +833,9 @@ textarea:focus::-webkit-input-placeholder {
 
 .header-area .navigation {
 	padding: 0px 30px;
+	margin-bottom: 4px;
 	background:#fff;
-	height: 80px;
+	height: 85px;
 }
 
 .main-menu .navbar {
@@ -853,12 +852,12 @@ textarea:focus::-webkit-input-placeholder {
 }
 
 .main-menu .navbar-nav .nav-link {
-	font-size: 18px;
+	font-size: 21px;
 	font-weight: 600;
 	color:black;
 	display: block;
 	padding: 30px 0;
-	font-family: "Quicksand";
+	font-family: "Quicksand", "sans-serif";
 }
 
 .main-menu .navbar-nav .nav-link.active {
@@ -1046,7 +1045,7 @@ textarea:focus::-webkit-input-placeholder {
 ======================= */
 
 .about-image img {
-	margin-top: 37px;
+	margin-top: 8%;
 	border-radius: 10px;
 }
 
@@ -2097,6 +2096,7 @@ p.event-date {
 
 .author-desc {
 	display: inline-block;
+	margin-top: -1.6rem;
 	font-size: 15px;
 	font-weight: 600;
 	line-height: 22px;
@@ -2447,6 +2447,8 @@ p.privacy {
 	position: relative;
 	z-index: 1;
 	border-top: 1px solid #eee;
+	padding-left: 8%;
+	padding-right: 8%;
 }
 
 .about-area i:before {
@@ -2837,7 +2839,8 @@ ul.port-menu.recent {
 ============== */
 
 .breadcroumb-area {
-	height: 600px;
+	height: 520px;
+	margin-top: 1rem;
 	background-size: cover;
 	background-position: center bottom;
 	background-color: #ddd;
@@ -2997,7 +3000,6 @@ ul.port-menu.recent {
 	height: 100%;
 	top: 0;
 	left: 0;
-	background:var(--green);
 	border-radius: 15px;
 	z-index: -1;
 	opacity: 0;
