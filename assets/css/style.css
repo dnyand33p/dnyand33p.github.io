@@ -2448,8 +2448,8 @@ p.privacy {
 	position: relative;
 	z-index: 1;
 	border-top: 1px solid #eee;
-	padding-left: 3%;
-	padding-right: 2%;
+	padding-left: 8%;
+	padding-right: 8%;
 }
 
 .about-area i:before {
