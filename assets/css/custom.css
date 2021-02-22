@@ -152,3 +152,7 @@ table tr td {
      padding-right: 3px !important;
      margin-right: 3px !important;
  }
+
+ .header-right-content {
+     padding:10px;
+ }
