@@ -143,3 +143,7 @@ table tr td {
  .card-body p {
      margin-bottom: 0px !important;
  }
+
+ .single-feature-item p {
+     font-size: 25px;
+ }
