@@ -139,3 +139,7 @@ table tr td {
  .self-engine .las {
      color:var(--red);
  }
+
+ .card-body p {
+     margin-bottom: 0px !important;
+ }
