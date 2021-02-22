@@ -147,3 +147,7 @@ table tr td {
  .single-feature-item p {
      font-size: 25px;
  }
+
+ .single-director p {
+     padding-left: 0px !important;
+ }
