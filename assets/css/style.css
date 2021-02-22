@@ -332,7 +332,7 @@ li {
 
 .main-btn {
 	display: inline-block;
-	background: var(--red);
+	background: var(--green);
 	color: #191919;
 	font-size: 16px;
 	font-weight: 500;
@@ -377,7 +377,7 @@ li {
 }
 
 .main-btn:hover {
-	background-color:var(--green);
+	background-color:var(--red);
 	color: #fff;
 }
 
@@ -813,10 +813,10 @@ textarea:focus::-webkit-input-placeholder {
 /*Logo*/
 
 .logo {
-	width: 330px;
+	width: 400px;
 	margin-top: 3.5px;
-	margin-bottom: 8.5px;
-	margin-left:3px ;
+	margin-bottom: 0px;
+	margin-left:64px !important;
 
 }
 
@@ -835,7 +835,7 @@ textarea:focus::-webkit-input-placeholder {
 	padding: 0px 30px;
 	margin-bottom: 4px;
 	background:#fff;
-	height: 85px;
+	height: 100px;
 }
 
 .main-menu .navbar {
