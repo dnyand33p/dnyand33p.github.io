@@ -1698,6 +1698,7 @@ a.line-btn:hover {
 
 .achievement-area {
 	background: #00B965;
+	
 	height: 300px;
 	background-size: cover;
 	background-position: center;
@@ -1712,6 +1713,11 @@ a.line-btn:hover {
 	align-items: center;
 	position: relative;
 	z-index: 1;
+}
+
+.achievement-area-small {
+	margin-left: 4.5%;
+	margin-right: 4.5%;
 }
 
 
